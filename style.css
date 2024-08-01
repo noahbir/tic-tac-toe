@@ -1,0 +1,34 @@
+body {
+    font-size: 40px;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin: 100px 100px 50px 100px;
+}
+
+.button-container button {
+    height: 200px;
+    font-size: inherit;
+}
+
+.button-container button:disabled {
+    cursor: not-allowed;
+}
+
+h1 {
+    text-align: center;
+}
+
+.clear {
+    text-align: center;
+}
+
+.clear button {
+    font-size: inherit;
+    padding: 20px;
+}
